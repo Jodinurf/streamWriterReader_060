@@ -33,4 +33,7 @@ int main() {
 	//membuka file dalam mode baca
 	ifstream infile;
 
+	///menunjuk ke sebuah file
+	infile.open(namaFile, ios::in);
+
 }
