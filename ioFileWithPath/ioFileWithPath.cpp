@@ -15,4 +15,6 @@ int main() {
 	// menunjuk ke sebuah nama file
 	outfile.open(namaFile + ".txt", ios::out);
 	
+	cout << ">= Menulis file, \'q\' untuk keluar " << endl;
+
 }
